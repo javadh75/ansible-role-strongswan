@@ -1,0 +1,9 @@
+---
+
+- name: Installing StrongSwan IPsec client, systemd support
+  become: true
+  ansible.builtin.apt:
+    name:
+      - charon-systemd
+    state: latest
+    update_cache: true
