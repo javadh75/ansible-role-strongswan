@@ -15,5 +15,8 @@ galaxy_info:
   galaxy_tags:
     - system
     - security
+    - ipsec
+    - strongswan
+    - vpn
 
 dependencies: []
