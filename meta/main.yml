@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Seyed Javad Hosseini
+  description: Ansible role for StrongSwan
+
+  license: Apache-2.0
+
+  min_ansible_version: "2.1"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+
+
+  galaxy_tags:
+    - system
+    - security
+
+dependencies: []
